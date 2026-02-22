@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+.vscode
+venv/
+
+# Airflow
+logs/
+*.cfg
+*.db
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.idea/
+webserver_config.py
