@@ -104,7 +104,7 @@ dag = DAG(
     'log_generation_pipeline',
     default_args=default_args,
     description='Generate and produce synthetic logs',
-    schedule_interval='*/2 * * * *',
+    schedule='*/2 * * * *',
     start_date=datetime(2026, 2, 21),
     catchup=False,
     tags=['logs', 'kafka', 'production']

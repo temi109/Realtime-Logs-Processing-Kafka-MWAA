@@ -167,8 +167,8 @@ dag = DAG(
     'log_consumer_pipeline',
     default_args=default_args,
     description='Consume logs from Kafka and index to Elasticsearch',
-    schedule_interval='*/2 * * * *',
-    start_date=datetime(2024, 1, 25),
+    schedule='*/2 * * * *',
+    start_date=datetime(2026, 1, 25),
     catchup=False,
     tags=['logs', 'kafka', 'elasticsearch']
 )
