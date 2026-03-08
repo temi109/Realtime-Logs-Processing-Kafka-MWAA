@@ -53,7 +53,7 @@ Key scalability features include:
 This design mirrors real-world data platform architectures used to process large-scale event streams such as application logs, user interactions, and telemetry data.
 
 
-## Architecture
+# Architecture
 
   <a href="https://github.com/temi109/Realtime-Logs-Processing-Kafka-MWAA.git">
     <img src="https://github.com/temi109/Realtime-Logs-Processing-Kafka-MWAA/blob/main/images/Realtime%20Logs%20Processing%20With%20Kafka%20%2B%20MWAA.png" alt="Logo" width="2000" height="2000">
